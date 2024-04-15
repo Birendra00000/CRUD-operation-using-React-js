@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-base: "poppins", sans-serif;
+  --robin-blue-color: #10c9c3;
+  --black-color: #141414;
+  --grey-color: #8e8e8e;
+  --white-color: #fff;
+  --transition: all 300ms ease-in-out;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
